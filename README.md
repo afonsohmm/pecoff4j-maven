@@ -72,5 +72,6 @@ ProductVersion = 6.1.7600.16385
 
 ## Other Forks
 
-[jonnyzzz/PE](https://github.com/jonnyzzz/PE) 
-[kichik/pecoff4j](https://github.com/kichik/pecoff4j) 
+[jonnyzzz/PE](https://github.com/jonnyzzz/PE) - Other features.
+
+[kichik/pecoff4j](https://github.com/kichik/pecoff4j) - Original version 0.0.2
