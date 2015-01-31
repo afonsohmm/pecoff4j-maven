@@ -632,14 +632,14 @@ public class PEParser {
 		lcd.setLockPrefixTable(dr.readLong());
 		lcd.setMaximumAllocationSize(dr.readLong());
 		lcd.setVirtualMemoryThreshold(dr.readLong());
-		lcd.setProcessAffinityMask(dr.readLong());
-		lcd.setProcessHeapFlags(dr.readDoubleWord());
-		lcd.setCsdVersion(dr.readWord());
-		lcd.setReserved(dr.readWord());
-		lcd.setEditList(dr.readLong());
-		lcd.setSecurityCookie(dr.readDoubleWord());
-		lcd.setSeHandlerTable(dr.readDoubleWord());
-		lcd.setSeHandlerCount(dr.readDoubleWord());
+		//lcd.setProcessAffinityMask(dr.readLong());
+		//lcd.setProcessHeapFlags(dr.readDoubleWord());
+		//lcd.setCsdVersion(dr.readWord());
+		//lcd.setReserved(dr.readWord());
+		//lcd.setEditList(dr.readLong());
+		//lcd.setSecurityCookie(dr.readDoubleWord());
+		//lcd.setSeHandlerTable(dr.readDoubleWord());
+		//lcd.setSeHandlerCount(dr.readDoubleWord());
 
 		return lcd;
 	}
